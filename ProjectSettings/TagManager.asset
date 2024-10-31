@@ -5,13 +5,6 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
-  - wall
-  - dangyon
-  - mura
-  - object
-  - warppoint(dan)
-  - warppoint(vire)
-  - warppoint(chassru)
   layers:
   - Default
   - TransparentFX
