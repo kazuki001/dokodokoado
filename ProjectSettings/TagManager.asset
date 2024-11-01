@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Enemy
   - wall
+  - danjon
+  - caauru
+  - object
+  - "\u5165\u53E3"
+  - "\u51FA\u53E3"
   layers:
   - Default
   - TransparentFX
