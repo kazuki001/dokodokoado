@@ -7,13 +7,12 @@ public class came : MonoBehaviour
 {
 
     GameObject playerObj;
-    PlayerController player;
     Transform playerTransform;
 
     void Start()
     {
         playerObj = GameObject.FindGameObjectWithTag("Player");
-        player = playerObj.GetComponent<PlayerController>();
+        player = playerObj.GetComponent<>();
         playerTransform = playerObj.transform;
     }
 
