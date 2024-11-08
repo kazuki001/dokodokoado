@@ -18,10 +18,10 @@ TagManager:
   - BlockingLayer
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - player
+  - casuru
+  - danjon
+  - wall
   - 
   - 
   - 
@@ -56,4 +56,16 @@ TagManager:
     locked: 0
   - name: Units
     uniqueID: 3586942287
+    locked: 0
+  - name: player
+    uniqueID: 3774844179
+    locked: 0
+  - name: wall
+    uniqueID: 3730242431
+    locked: 0
+  - name: danjon
+    uniqueID: 4255234009
+    locked: 0
+  - name: casuru
+    uniqueID: 1638015343
     locked: 0
