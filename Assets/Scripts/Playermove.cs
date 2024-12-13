@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 public class Playermove : MonoBehaviour
 {
     [SerializeField] private float _speed = 5.0f;
@@ -20,6 +23,8 @@ public class Playermove : MonoBehaviour
             targetPos += new Vector3(move.x, move.y, 0) * distance;
         }
         Move(targetPos);
+
+        RaycastHit hit;
     }
     private void Move(Vector3 targetPosition)
     {

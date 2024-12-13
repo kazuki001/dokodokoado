@@ -11,6 +11,8 @@ TagManager:
   - object
   - "\u5165\u53E3"
   - "\u51FA\u53E3"
+  - Exit
+  - Food
   layers:
   - Default
   - TransparentFX
