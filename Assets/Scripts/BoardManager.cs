@@ -25,7 +25,7 @@ public class BoardManager : MonoBehaviour
     //¶¬‚·‚éƒAƒCƒeƒ€‚ÌŒÂ”
     public Count Wallcount = new Count(3, 9);
     public Count foodcount = new Count(1, 5);
-    public Count enemycount = new Count(1, 2);
+    public Count enemycount = new Count(1, 3);
 
 
     //MAP‚ÌŞ—¿
