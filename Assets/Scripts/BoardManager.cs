@@ -25,6 +25,8 @@ public class BoardManager : MonoBehaviour
     //生成するアイテムの個数
     public Count Wallcount = new Count(3, 9);
     public Count foodcount = new Count(1, 5);
+    public Count enemycount = new Count(1, 2);
+
 
     //MAPの材料
     public GameObject exit;
@@ -53,6 +55,8 @@ public class BoardManager : MonoBehaviour
 
         //食べ物生成
         LayoutObjectAtRandom(food, foodcount.minmum, foodcount.maximum);
+
+        LayoutObjectAtRandom(enemy, enemycount.minmum, enemycount.maximum);
 
         //出口の設置
         Instantiate(exit, new Vector3(columns - 1, rows - 1, 0), Quaternion.identity);

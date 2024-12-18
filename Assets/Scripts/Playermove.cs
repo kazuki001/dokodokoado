@@ -1,13 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.SceneManagement;
-
 public class Playermove : MonoBehaviour
 {
     [SerializeField] private float _speed = 5.0f;
-    private float distance = 1.0f;
+    private float distance = 0.5f;
     private Vector2 move;
     private Vector3 targetPos;
     private void Start()
