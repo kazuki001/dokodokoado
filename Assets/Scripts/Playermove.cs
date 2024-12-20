@@ -21,7 +21,6 @@ public class Playermove : MonoBehaviour
         }
         Move(targetPos);
 
-        RaycastHit hit;
     }
     private void Move(Vector3 targetPosition)
     {

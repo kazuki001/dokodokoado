@@ -13,6 +13,9 @@ TagManager:
   - "\u51FA\u53E3"
   - Exit
   - Food
+  - enter
+  - d-enter
+  - d-exit
   layers:
   - Default
   - TransparentFX
