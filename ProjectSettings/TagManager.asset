@@ -16,6 +16,10 @@ TagManager:
   - enter
   - d-enter
   - d-exit
+  - c-enter
+  - c-exit
+  - s-enter
+  - s-exit
   layers:
   - Default
   - TransparentFX
